@@ -1,7 +1,9 @@
-npm create vite@latest
+`npm create vite@latest`
 
 
-eslint.config.js
+Файл `eslint.config.js` налаштований для підтримки React, React Hooks та React Refresh. Ось конфігурація:
+
+```javascript
 import js from "@eslint/js";
 import globals from "globals";
 import react from "eslint-plugin-react";
@@ -41,8 +43,11 @@ export default [
     },
   },
 ];
+```
 
-vite.config.js
+`vite.config.js`
+
+```javascript
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react-swc";
 
@@ -53,4 +58,5 @@ export default defineConfig({
     sourcemap: true,
   }
 });
+```
 
