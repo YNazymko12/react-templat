@@ -60,3 +60,13 @@ export default defineConfig({
 });
 ```
 
+`vercel.json`
+
+```javascript
+{
+  "rewrites":  [
+    {"source": "/(.*)", "destination": "/"}
+  ]
+}
+```
+
