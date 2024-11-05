@@ -70,3 +70,19 @@ export default defineConfig({
 }
 ```
 
+
+`Redux Toolkit`
+
+```javascript
+npm install @reduxjs/toolkit
+```
+
+
+
+`React Redux`
+
+```javascript
+npm install react-redux
+```
+
+
